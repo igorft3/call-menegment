@@ -1,0 +1,26 @@
+.grade {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border-radius: 0.3em;
+  color: white;
+  font-weight: 400;
+}
+
+.red {
+  border: 1p;
+  color: #ea1a4f;
+  background-color: #fee9ef;
+  border: 1px solid #ea1a4f;
+}
+
+.blue {
+  color: #122945;
+  background-color: #d8e4fb;
+  border: 1px solid #adbfdf;
+}
+
+.green {
+  color: #00a775;
+  border: 1px solid #28a879;
+  background-color: #dbf8ef;
+}

@@ -1,0 +1,19 @@
+.tableRow {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 3fr 7fr 5fr 2fr 10fr;
+  /*   
+  flex-direction: row;
+  justify-content: space-between; */
+  justify-items: start;
+
+  padding: 20px 40px;
+}
+.tableCell {
+  flex: 1;
+  text-align: center;
+  color: #5e7793;
+}
+
+.tableCell:last-child {
+  justify-self: end;
+}

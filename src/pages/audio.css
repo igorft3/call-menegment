@@ -1,0 +1,55 @@
+.audio-controller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 18px;
+  background-color: #eaf0fa;
+  border-radius: 48px;
+}
+
+.time {
+  margin: 0;
+}
+
+.play {
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.download:hover path {
+  transition: fill 0.4s ease;
+}
+
+.download:hover path {
+  fill: #002cfb;
+}
+
+.progress-bar {
+  min-width: 160px;
+  width: 100%;
+  height: 4px;
+  background-color: #adbfdf;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: #002cfb;
+  transition: width 0.1s linear;
+}
+
+.download {
+  width: 24px;
+  height: 24px;
+}
