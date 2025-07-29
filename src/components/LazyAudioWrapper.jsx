@@ -1,5 +1,5 @@
-import { CALL_STATUS } from '@/utils/const';
-import AudioPlayer from '@/components/AudioPlayer/AudioPlayer.jsx';
+import { CALL_STATUS } from '../utils/const';
+import AudioPlayer from '../components/AudioPlayer/AudioPlayer.jsx';
 
 export function LazyAudioWrapper({ hovered, record, partnership_id, status }) {
   if (status !== CALL_STATUS.SUCCESS || !hovered) return null;
