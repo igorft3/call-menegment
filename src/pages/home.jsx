@@ -1,17 +1,17 @@
 import { useState, useEffect, useRef } from 'react';
-import { api } from '@/utils/api';
+import { api } from '../utils/api';
 import Select from 'react-select';
-import { formatPhoneNumber, getRandomGrade } from '@/utils/helper';
+import { formatPhoneNumber, getRandomGrade } from '../utils/helper';
 import './style.css';
-import TableHeader from '@/components/TableHeader/TableHeader';
-import IconCall from '@/components/TableHeader/IconCall/IconCall';
+import TableHeader from '../components/TableHeader/TableHeader';
+import IconCall from '../components/TableHeader/IconCall/IconCall';
 import CircularProgress from '@mui/material/CircularProgress';
-import ArrowLeft from '@/assets/icons/icon-arrow-left.svg?react';
-import ArrowRight from '@/assets/icons/icon-arrow-rigth.svg?react';
+import ArrowLeft from '../assets/icons/icon-arrow-left.svg?react';
+import ArrowRight from '../assets/icons/icon-arrow-rigth.svg?react';
 import Box from '@mui/material/Box';
 import './audio.css';
 // import { AudioPlayer } from '../components/AudioPlayer/AudioPlayer';
-import { LazyAudioWrapper } from '@/components/LazyAudioWrapper';
+import { LazyAudioWrapper } from '../components/LazyAudioWrapper';
 
 export const formatTime = dateString => {
   const date = new Date(dateString.replace(' ', 'T'));

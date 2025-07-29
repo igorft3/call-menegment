@@ -3,8 +3,8 @@ import Play from '../../assets/icons/icon-play.svg?react';
 import Pause from '../../assets/icons/icon-pause.svg?react';
 import Download from '../../assets/icons/icon-download.svg?react';
 import { getFullTime } from '../../utils/helper';
-import { api } from './../utils/api';
-import { CALL_STATUS } from './../utils/const';
+import { api } from '../../utils/api';
+import { CALL_STATUS } from '../../utils/const';
 
 export default function AudioPlayer({ record, partnership_id, status }) {
   const [isPlaying, setIsPlaying] = useState(false);
